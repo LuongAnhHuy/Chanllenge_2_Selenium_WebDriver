@@ -25,7 +25,7 @@ public class TC_01_Tim_Chuyen_Bay extends BaseTest {
     }
 
     @Test
-    public void TC_01(){
+    public void TC_01_Tim_chuyen_bay(){
         homePageObject = new HomePageObject(driver);
         homePageObject.clickToChonDiemDi();
         homePageObject.selectDiemDi();
